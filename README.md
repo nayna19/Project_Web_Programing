@@ -30,8 +30,11 @@ Website ini dibuat dengan tujuan mengatasi masalah penjualan disaat pandemi. Den
 
 
 ### Berikut Tampilan Website yang kami buat :
+
 1. Halaman Awal
+
 ![](img/home.jpeg)
 
 2. Form Input Pemesanan
+
 ![](img/form_input.jpg)
