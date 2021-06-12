@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(gambar/geometric-leaves.png);
+    font-size: 20px;
+}
+
+.container {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 200px auto;
+    box-sizing: border-box;
+}
+
+.container fieldset {
+    width: 500px;
+    padding: 20px;
+}
+
+.container legend {
+    font-size: 28px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.container .login {
+    width: 300px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.container .input {
+    width: 70px;
+    padding: 5px 7px;
+    background-color: rgb(209, 208, 208);
+    color: black;
+    border: 1px solid #c2c0c0;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: green;
+    padding-left: 5px;
+}

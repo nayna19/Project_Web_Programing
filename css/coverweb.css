@@ -1,0 +1,570 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* BODY */
+
+body {
+    background-image: url(gambar/geometric-leaves.png);
+    font-size: 20px;
+    line-height: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/* CONTAINER */
+
+.container {
+    width: 1250px;
+    margin: 0 auto;;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+/* Header CSS */
+
+.header {
+    width: 1250px;
+    height: 60px;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 3px solid aqua;
+    position: fixed;
+    z-index: 9999;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.kiri {
+    display: flex;
+    padding-right: 300px;
+    
+}
+
+.kiri img {
+    background-size: cover;
+    margin: 8px 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+.kiri h2 {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps;
+    color:lightseagreen;
+    
+}
+
+.header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.header a {
+    font-size: 15px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: rgb(43, 41, 41);
+    opacity: 0.7px;
+    color: rgba(255, 255, 255, 0.89);
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.header a:hover {
+    font-size: 18px;
+    color:lightseagreen;
+}
+
+/* HERO */
+
+.hero {
+    height: 400px;
+    background-size: cover;
+    background-position: 0 -290px;
+    margin-top: 60px;
+    border-bottom: 3px solid aqua;
+    background-image: url(gambar/produk.jpg) ;
+}
+
+.hero .kepo {
+    width: 300px;
+    position: relative;
+    top: 10px;
+    right: 440px;
+    left: 440px;
+    border-radius: 4px;
+}
+
+.hero .tombol {
+    width: 70px;
+    position: relative;
+    top: 10px;
+    right: 440px;
+    left: 440px;
+    border-radius: 8px;
+}
+
+/* CONTENT */
+
+.mid-bar {
+    width: 1250px;
+    background-color: black;
+}
+.judul {
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color :rgba(255, 255, 255, 0.89);
+    border-bottom: 3px solid aqua;
+    
+}
+
+.content {
+    width: 1250px;
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.barang {
+    border: 1px solid black;
+    padding-top: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.barang-dua {
+    border: 1px solid black;
+    padding-top: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.barang-tiga {
+    border: 1px solid black;
+    padding-top: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.barang-empat {
+    border: 1px solid black;
+    padding-top: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.barang li:nth-child(2) {
+    padding-left: 15px;
+}
+
+.barang li:nth-child(3) {
+    padding-left: 15px;
+}
+
+.barang-dua li:nth-child(2) {
+    padding-left: 15px;
+}
+
+.barang-dua li:nth-child(3) {
+    padding-left: 15px;
+}
+
+.barang-tiga li:nth-child(2) {
+    padding-left: 15px;
+}
+
+.barang-tiga li:nth-child(3) {
+    padding-left: 15px;
+}
+
+.barang-empat li:nth-child(2) {
+    padding-left: 15px;
+}
+
+.barang-empat li:nth-child(3) {
+    padding-left: 15px;
+}
+
+.content li {
+    list-style: none;
+    display: flex;
+}
+
+.content img {
+    display: flex;
+    width: 180px;
+    height: 150px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;   
+}
+
+.content a {
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left: 75px;
+    letter-spacing: 1.5px;
+    background-color: palevioletred;
+    margin-top: 5px;
+}
+
+.content a:hover {
+    color:red;
+    background-color:whitesmoke;
+}
+
+.about {
+    margin-top: 80px;
+    margin-bottom:20px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.about a {
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+    color: #333;
+}
+
+.about p {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.kontak {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-left: 5px solid #333;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kontak li {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+.kontak a {
+    text-decoration: none;
+}
+
+.kontak li:first-child {
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 15px;
+}
+
+.kontak a:first-child {
+    color: #333;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer p{
+    border-top: 3px solid aqua;
+    font-size: 13px;
+    width: 1250px;
+    height: 23px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 3px;
+}
+
+/* Responsive Layar Tablet */
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        max-width: 768px;
+        box-sizing: border-box;
+    }
+
+    .header {
+        max-width: 768px;
+        display: flex;
+        justify-content: space-around;
+        z-index: 9999px;
+    }
+
+    .header ul li a{
+        font-size: 13px;
+    }
+
+    .header ul li a:hover{
+        font-size: 14px;
+    }
+
+    .kiri {
+        padding-right: 0;
+    }
+
+    .kiri h2 {
+        padding-top: 15px;
+        font-size: 20px;
+    }
+
+    .hero {
+        width: auto;
+        background-size: cover;
+        background-position: 0 -130px;
+    }
+
+    .hero .kepo {
+        width: 290px;
+        position: relative;
+        top: 50px;
+        right: 200px;
+        left: 200px;
+        border-radius: 5px;
+    }
+    
+    .hero .tombol {
+        width: 70px;
+        position: relative;
+        top: 50px;
+        right: 200px;
+        left: 200px;
+        border-radius: 10px;
+    }
+
+    .barang {
+        margin-bottom: 10px;
+    }
+
+    .barang-dua {
+        margin-bottom: 10px;
+    }
+
+    .barang-tiga {
+        margin-bottom: 10px;
+    }
+
+    .mid-bar {
+        display: none;
+    }
+
+    .content {
+        width: auto;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+
+    .footer {
+        width: auto;
+    }
+
+}
+
+/* Responsive Layar Mobile 425px */
+
+@media screen and (max-width: 425px) {
+    .container {
+        width: 425px;
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .header {
+        height: 40px;
+        width: 425px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    
+    }
+    .header ul li a{
+        font-size: 10px;
+        margin:2px;
+    
+    }
+    .header ul li a:hover{
+        font-size: 11px;
+        margin:2px;
+    }   
+
+    .kiri img {
+        display: none;
+    
+    }
+
+    .header h2 {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    .hero {
+        margin-top: 41px;
+        height: 200px;
+        background-position: 0 -70px;
+    }
+
+    .hero .kepo {
+        width: 200px;
+        position: relative;
+        top: 10px;
+        right: 90px;
+        left: 90px;
+        border-radius: 5px;
+    }
+
+    .hero .tombol {
+        width: 50px;
+        position: relative;
+        top: 10px;
+        right: 90px;
+        left: 90px;
+        border-radius: 10px;
+    }
+
+    .barang {
+        margin-bottom: 10px;
+    }
+
+    .barang-dua {
+        margin-bottom: 10px;
+    }
+
+    .barang-tiga {
+        margin-bottom: 10px;
+    }   
+
+    .barang-empat {
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        font-size: 8px;
+    }
+
+}
+
+/* Responsive 325 */
+
+@media screen and (max-width: 325px) {
+    .container {
+        max-width: 325px;
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .header {
+        max-width: 325px;
+        
+    }
+
+    .kiri {
+        padding: 0;
+        margin: 0;
+    }
+
+    .kiri h2 {
+        display: none;
+    }
+
+    .hero {
+        margin-top: 41px;
+        height: 200px;
+        background-position: 0 -40px;
+    }
+
+    .hero .kepo {
+        width: 150px;
+        position: relative;
+        top: 10px;
+        right: 70px;
+        left: 70px;
+        border-radius: 5px;
+    }
+    
+    .hero .tombol {
+        width: 50px;
+        position: relative;
+        top: 10px;
+        right: 70px;
+        left: 70px;
+        border-radius: 10px;
+    }
+
+    .footer {
+        display: none;
+    }
+
+}

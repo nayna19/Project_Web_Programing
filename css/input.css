@@ -1,0 +1,157 @@
+
+
+/*syntax output */
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(gambar/geometric-leaves.png);
+    
+}
+.top_bar {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: fixed;
+    background-color:black;
+    border-bottom: 3px solid turquoise;
+    width: 1250px;
+    top: 0;
+    left : 0;
+    right: 0;
+    margin: auto;
+    z-index: 99999;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.top_bar h3 {
+    font-variant: small-caps;
+    color:lightseagreen;
+    font-weight: bold;
+    font-size: 30px;
+    margin:auto;
+}
+.top_bar h3 input {
+    height: 30px;
+    width: 30px;
+    margin-bottom: -5px;
+}
+
+.top_bar a {
+    display: inline;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: -15px;
+    float : right;
+}
+
+.top_bar a {
+    text-decoration: none;
+    color:palevioletred;    
+}
+
+.top_bar a:hover {
+    color:whitesmoke;
+    border-left: 5px solid black;
+}
+
+form {
+    width: 1250px;
+    margin :auto;
+}
+.out p {
+    margin-top: 70px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+fieldset {
+    background-color: whitesmoke;
+    width: fit-content;
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 300px;
+}
+
+legend {
+    font-variant: small-caps;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 19px;
+}
+
+table {
+    height: 290px;
+   
+}
+
+.sub input {
+    width: 220px;
+    height: 20px;
+}
+.img {
+    height: 250px;
+    width: 250px;
+    margin-top: 15px;
+    border-radius: 70px;
+}
+
+
+.sub ul li{
+    display: inline-block;
+}
+.sub input{
+   font-weight: bold;
+    margin-top: 20px;
+   
+    width: 100px;
+    height: 30px;   
+}
+
+.sub input:hover {
+    background-color:indianred;
+    color:white;
+}
+
+
+
+.footer {
+    width: 1250px;
+    background-color: black;
+    padding: 15px;
+    border-top: 3px solid turquoise;
+    box-sizing: border-box;
+    margin: auto;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+    margin:auto;
+    
+}
+
+
+
+
+
+
+/* mikro clear float*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+

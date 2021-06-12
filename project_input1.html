@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pembeli</title>
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="css/input.css">
+</head>
+
+<body>
+    <div class="contener">
+        <div class="top_bar cf">
+            <h3><input type="image" src="img/logo.jpg" alt="logo"> Accessories & Food</h3>
+            <a href="website.html ">home</a>
+        </div>
+
+        <form action="outputend.php" method="post">
+            <div class="out cf">
+                <p>
+                    Isi form dibawah ini untuk melanjutkan pembelian :
+                </p>
+                <div class="pembeli">
+                    <fieldset>
+                        <legend>Data Pembeli</legend>
+
+                        <table>
+                            <tr>
+                                <td>Nama</td>
+                                <td><input type="text" name="pembeli"></td>
+                            </tr>
+                            <tr>
+                                <td>Alamat </td>
+                                <td><textarea name="alamat" cols="30" rows="9"> </textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Kode Pos</td>
+                                <td><input type="text" name="kode"></td>
+                            </tr>
+                            <tr>
+                                <td>No Hp</td>
+                                <td><input type="text" name="hp"></td>
+                            </tr>
+                        </table>
+
+                    </fieldset>
+                </div>
+                <div class="brg ">
+                    <fieldset>
+                        <legend> Data Barang</legend>
+
+                        <table>
+                            <tr>
+                                <td>Nama barang</td>
+                                <td><input type="text" name="brg" value="Resin Chain"></td>
+                            </tr>
+                            <tr>
+                                <td>Harga barang</td>
+                                <td><input type="number" name="harga" value="10000"></td>
+                            </tr>
+                            <tr>
+                                <td>Jumlah beli</td>
+                                <td><input type="number" name="jml"></td>
+                            </tr>
+                            <tr>
+                                <td>Metode Pembayaran</td>
+                                <td><input type="radio" name="cod" checked>Cash On Delivery</td>
+                            </tr>
+                            <tr>
+                                <td>Note</td>
+                                <td><textarea name="note" cols="30" rows="10"
+                                        placeholder="custom warna,bentuk,hiasan...."> </textarea>
+                                </td>
+                            </tr>
+
+                        </table>
+
+                    </fieldset>
+                </div>
+                <fieldset>
+                    <legend>Gambar Produk</legend>
+                    <input class="img cf" type="image" src="img/resin-cham.jpg" alt="Resin Chain">
+                </fieldset>
+            </div>
+
+            <div class="sub ">
+                <ul>
+                    <li><input type="submit" value="Submit"></li>
+                    <li><input type="reset" value="Cancel"></li>
+                </ul>
+
+            </div>
+            <div class="footer">
+                <p>Copyright 2021 Our Privacyy Police</p>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
